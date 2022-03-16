@@ -1,9 +1,9 @@
 <?php
-$conn_str = "host=hansken.db.elephantsql.com" .
-"port=5432" .
-"user=mlvgkndg" .
-"dbname=mlvgkndg". 
-"password=ubsNFYJ9XUfpC76O0N9kkYVkGO7Wt7FG";
+$conn_str = "host=hansken.db.elephantsql.com " .
+"port=5432 " .
+"user=mlvgkndg " .
+"dbname=mlvgkndg ". 
+"password=ubsNFYJ9XUfpC76O0N9kkYVkGO7Wt7FG ";
 $conn = pg_connect($conn_str);
 
 if($conn){
