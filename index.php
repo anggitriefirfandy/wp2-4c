@@ -28,7 +28,7 @@ $result = pg_query($sql);
             <td><?= $row->kelas ?></td>
             <td>
 <?php
-echo '<a href="hapus.php?nim=' . '">Hapus</a>'
+echo '<a href="hapus.php?nim=' . $row->nim . '">Hapus</a>'
 ?>
             </td>
         </tr>
