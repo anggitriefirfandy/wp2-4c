@@ -14,6 +14,7 @@ $result = pg_query($sql);
             <th>NIM</th>
             <th>NAMA</th>
             <th>KELAS</th>
+            <th>OPSI</th>
         </tr>
     </thead>
     <tbody>
@@ -26,7 +27,9 @@ $result = pg_query($sql);
             <td><?= $row->nama ?></td>
             <td><?= $row->kelas ?></td>
         </tr>
-
+<?php
+echo '<a href="hapus.php?nim=' . '">Hapus</a>'
+?>
 <?php
   endwhile;
 ?>
